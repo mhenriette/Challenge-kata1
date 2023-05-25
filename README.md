@@ -20,3 +20,22 @@ Modern Roman numerals are written by expressing each digit separately starting w
 Example:
 
 ```solution(1000); // should return 'M'```
+
+## 3. Roman Numeral Decoder
+
+Create a function that takes a Roman numeral as its argument and returns its value as a numeric decimal integer. You don't need to validate the form of the Roman numeral.
+
+Modern Roman numerals are written by expressing each decimal digit of the number to be encoded separately, starting with the leftmost digit and skipping any 0s. So 1990 is rendered "MCMXC" (1000 = M, 900 = CM, 90 = XC) and 2008 is rendered "MMVIII" (2000 = MM, 8 = VIII). The Roman numeral for 1666, "MDCLXVI", uses each letter in descending order.
+
+## 4. Number Format
+
+Format any integer provided into a string with "," (commas) in the correct places.
+
+Example:
+
+```js
+For n = 100000 the function should return '100,000';
+For n = 5678545 the function should return '5,678,545';
+for n = -420902 the function should return '-420,902'.
+
+```
